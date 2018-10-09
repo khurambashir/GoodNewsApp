@@ -54,7 +54,7 @@ public class NewsAdapter extends ArrayAdapter<News> {
         // Find the TextView with view ID date
         TextView dateView = (TextView) listItemView.findViewById(R.id.date);
         // Display Text
-        dateView.setText(currentNews.getmTitle());
+        dateView.setText(currentNews.getmDate());
 
         // Return the list item view that is now showing the appropriate data
         return listItemView;

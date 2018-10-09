@@ -23,9 +23,9 @@ public class GoodNewsActivity extends AppCompatActivity
 
     private static final String LOG_TAG = GoodNewsActivity.class.getName();
 
-    /** URL for news data from the Gaurdian */
+    /** URL for news data from the gaurdian */
     private static final String NEWS_REQUEST_URL =
-            "https://content.guardianapis.com/search?q=debate&tag=politics/politics&from-date=2014-01-01&api-key=test";
+            "https://content.guardianapis.com/search?q=Jesus%20Christ&api-key=test";
 
     /**
      * Constant value for the news loader ID. We can choose any integer.

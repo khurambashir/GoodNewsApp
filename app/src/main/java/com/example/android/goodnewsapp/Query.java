@@ -157,7 +157,7 @@ public class Query {
                 String section = currentNews.getString("sectionName");
 
                 // Extract the value for the key called "webTitle"
-                String title = currentNews.getString("WebTitle");
+                String title = currentNews.getString("webTitle");
 
                 // Extract the value for the key called "webPublishingDate"
                 String date = currentNews.getString("webPublicationDate");
